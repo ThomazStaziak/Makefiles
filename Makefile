@@ -10,8 +10,4 @@ commit:
 push:
 	git push
 
-all: add commit push
-	echo "adicionando os arquivos"
-	echo "adicionando comentário"
-	echo "subindo os arquivos"
-	echo "tudo certo :)"
+all: status add status commit status push
