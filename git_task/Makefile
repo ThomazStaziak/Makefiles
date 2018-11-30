@@ -2,7 +2,7 @@ status:
 	git status
 
 add:
-	git add .
+	git add ../*
 
 commit:
 	git commit -m "adding changes"
